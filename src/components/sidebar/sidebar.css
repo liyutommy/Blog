@@ -1,0 +1,16 @@
+/* whole sidebar*/
+.sidebar-main {
+    width: 100%;
+}
+
+/*social icons*/
+.side-social-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.profile-img {
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px;
+}

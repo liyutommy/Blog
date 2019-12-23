@@ -1,22 +1,32 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "yuli-blog",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Yu Li <yuli9223@colorado.edu>",
   "dependencies": {
-    "gatsby": "^2.18.4",
+    "bootstrap": "^4.4.0",
+    "gatsby": "^2.18.11",
+    "gatsby-cli": "^2.8.21",
     "gatsby-image": "^2.2.34",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-manifest": "^2.2.30",
+    "gatsby-plugin-node-fields": "^3.1.0",
     "gatsby-plugin-offline": "^3.0.24",
     "gatsby-plugin-react-helmet": "^3.1.16",
     "gatsby-plugin-sharp": "^2.3.4",
-    "gatsby-source-filesystem": "^2.1.39",
+    "gatsby-remark-prismjs": "^3.3.27",
+    "gatsby-remark-responsive-iframe": "^2.2.30",
+    "gatsby-remark-use-frontmatter-path": "^1.0.0",
+    "gatsby-source-filesystem": "^2.1.42",
+    "gatsby-transformer-remark": "^2.6.42",
     "gatsby-transformer-sharp": "^2.3.6",
+    "prismjs": "^1.17.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-icons": "^3.8.0"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
@@ -33,12 +43,5 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }

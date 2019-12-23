@@ -1,0 +1,22 @@
+/* whole header*/
+.head-main {
+  width: 100%;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+}
+/* elements of header*/
+.head-elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* left element*/
+.head-logo {
+  font-family: "Georgia";
+  font-size: 1.75rem;
+}
+
