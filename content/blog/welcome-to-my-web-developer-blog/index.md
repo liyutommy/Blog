@@ -1,8 +1,8 @@
 ---
-title: 'Welcome To My Web Developer Blog'
+title: 'Welcome To My Blog'
 tags: ["react", "vscode", "git", "css", "python", "ruby", "java", "angular", "html", "php", "mongodb", ]
 published: true
-date: '2018-08-20'
+date: '2019-12-23'
 ---
 
-This blog template is designed for web developers. Whether you're a professional web developer or are just getting started in the world of web development, this Gatsby starter is ready to go, right out the of box. Its minimalist design makes it easy to tailor to your needs. But, you'll definitely want to make use of the tech tags and developer social media links, and maybe even make some of your own.
+This semester I took a software development course, and I feel that I have enough capability to do some projects with the knowledge I have learned. Therefore, I learned React, JavaScript, and GatsbyJS by studying their documentation during fall break to build my blog. I will use TypeScript to improve my blog later. For me as a newbie, there is still a long way to go on the road of technology.
