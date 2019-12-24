@@ -17,10 +17,10 @@ const IndexPage = ({data}) => {
         <div className="sidebar px-4 py-2">
           <Sidebar />
         </div>
-        <div>
+        <div className="border-left pl-4">
           {posts.map((post) => {
             return (
-              <div key={post.node.fields.slug} className="container mt-5">
+              <div key={post.node.fields.slug} className="container mt-3">
                 <Link to={post.node.fields.slug} className="text-dark">
                   <h2 className="title"> 
                     {post.node.frontmatter.title}
@@ -47,7 +47,7 @@ const IndexPage = ({data}) => {
 }
 
 export const pageQuery = graphql`
-  query MyQuery {
+  query IndexQuery {
     site {
       siteMetadata {
         title

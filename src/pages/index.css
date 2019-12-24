@@ -21,6 +21,6 @@
 }
 
 /*font of title and paragraph on index page*/
-p, .title {
+i, p, .title {
   font-family: Georgia, serif;
 }

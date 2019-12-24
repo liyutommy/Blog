@@ -19,11 +19,10 @@ const BlogPost = (props) => {
         <div className="sidebar px-4 py-2">
           <Sidebar />
         </div>
-        <div className="post-main">
+        <div className="border-left pl-5">
           <SEO title={post.frontmatter.title} />
-          <div className="mt-3">
+          <div className="mt-2">
             <h2 className="heading">{post.frontmatter.title}</h2>
-            <br />
             <small><i>Published on </i> {post.frontmatter.date}</small>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
           </div>

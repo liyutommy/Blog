@@ -1,16 +1,28 @@
+/* bio*/
+/*personal image with shadow*/
+.profile-img {
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px;
+}
+
+.author-bio {
+    font-size: 2vw;
+}
+
+small, h3, p {
+    font-family: 'Raleway';
+    
+}
+
+/*sidebar*/
 /* whole sidebar*/
 .sidebar-main {
     width: 100%;
+    margin-left: 15%;
 }
 
 /*social icons*/
 .side-social-links {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
-
-
-.profile-img {
-    border-radius: 50%;
-    box-shadow: 1px 1px 3px;
 }

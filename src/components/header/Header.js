@@ -3,11 +3,10 @@ import PropTypes from "prop-types"
 import React from "react"
 
 import "./header.css"
-import HeaderJump from "./HeaderJump"
+import Navigation from "./Navigation"
 
 const Header = ({ siteTitle }) => (
-  <header
-    className="head-main"
+  <header className="head-main"
     style={{
       background: `#2d3748`,
       marginBottom: `1rem`,
@@ -19,7 +18,7 @@ const Header = ({ siteTitle }) => (
         padding: `.75rem`,
       }}
     >
-      <h1 className="head-logo ml-4" style={{ margin: 0 }}>
+      <h1 className="head-logo ml-4 mt-2" style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
@@ -30,7 +29,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <HeaderJump />
+      <Navigation />
     </div>
   </header>
 )

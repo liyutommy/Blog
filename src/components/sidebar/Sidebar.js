@@ -25,7 +25,7 @@ const Sidebar = () => {
 
     return (
         <>
-            <div className="sidebar-main border-right">
+            <div className="sidebar-main">
                 <Bio author={data.site.siteMetadata.author} bio={data.site.siteMetadata.bio}/>
                 <SocialLinks contacts={data.site.siteMetadata.contacts} />
             </div>
