@@ -10,7 +10,7 @@ import "./header.css"
 
 const Navigation = () => {
     return (
-        <div className="icon mr-5">
+        <div className="icon float-right mr-5">
             <Link to="/" title="Home" className="text-light ml-5 icon-text">
                 <FaHome size={40} style={{color: "light"}} />
                 <span className="font-weight-bold">Home</span>

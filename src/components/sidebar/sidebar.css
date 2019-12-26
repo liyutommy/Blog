@@ -11,7 +11,22 @@
 
 small, h3, p {
     font-family: 'Raleway';
-    
+}
+
+
+.bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+.bio-text {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: 14px;
+text-decoration: none;
 }
 
 /*sidebar*/
@@ -25,4 +40,16 @@ small, h3, p {
 .side-social-links {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.margin-t{
+    margin-top: 4px;
+}
+
+.brighten{
+    opacity: 0.8;
+}
+
+.brighten:hover {
+    opacity: 1;
 }

@@ -4,35 +4,38 @@ import React from "react"
 
 import "./header.css"
 import Navigation from "./Navigation"
+import MobileSiderBar from "./MobileSiderBar"
 
-const Header = ({ siteTitle }) => (
-  <header className="head-main"
-    style={{
-      background: `#2d3748`,
-      marginBottom: `1rem`,
-    }}
-  >
-    <div className="head-elements"
+const Header = ({ siteTitle, author, bio, contacts}) => {
+  return(
+    <header className="head-main"
       style={{
-        margin: `0`,
-        padding: `.75rem`,
+        background: `#2d3748`,
+        marginBottom: `1rem`,
       }}
     >
-      <h1 className="head-logo ml-4 mt-2" style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-      <Navigation />
-    </div>
-  </header>
-)
+      <div className="head-elements"
+        style={{
+          margin: `0`,
+          padding: `.75rem`,
+        }}
+      >
+        <h1 className="head-logo ml-4 mt-2" style={{ margin: 0 }}>
+          <Link
+            to="/"
+            style={{
+              color: `white`,
+              textDecoration: `none`,
+            }}
+          >
+            {siteTitle}
+          </Link>
+        </h1>
+        <Navigation />
+      </div>
+    </header>
+  )
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,

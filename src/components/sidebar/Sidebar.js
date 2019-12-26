@@ -16,7 +16,7 @@ const Sidebar = () => {
                     contacts {
                         github
                         linkedin
-                        twitter
+                        csdn
                     }
                 }
             }

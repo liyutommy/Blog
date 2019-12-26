@@ -20,10 +20,11 @@ const Layout = ({ children }) => {
         siteMetadata {
           title
           author
+          bio
           contacts {
             github
             linkedin
-            twitter
+            csdn
           }
         }
       }
@@ -32,7 +33,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header siteTitle={data.site.siteMetadata.title} author={data.site.siteMetadata.author} bio={data.site.siteMetadata.bio} contacts={data.site.siteMetadata.contacts} />
       <div
         style={{
           margin: `0 auto`,
@@ -40,9 +41,9 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
-        <main className="p-4">{children}</main>
-        <footer className="text-center">
-          <hr/>
+        <main className="p-2">{children}</main>
+        <footer className="text-center border-top">
+          <br/>
           <p className="d-inline">
             © {new Date().getFullYear()} Yu Li Built with
             {` `}

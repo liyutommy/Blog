@@ -18,12 +18,15 @@
 .head-logo {
   font-family: "Georgia";
   font-size: 1.75rem;
+  margin-left: ($spacer * 1.5) !important;
+  margin-top: ($spacer * .5) !important;
 }
 
-
+/*icon and text*/
 .icon {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 .icon-text {
@@ -33,4 +36,22 @@
   justify-content: center;
   font-size: 14px;
   text-decoration: none;
+}
+
+/*normal screen doesn't display*/
+.mobile-siderbar-main {
+  background: white;
+  display: none;
+}
+
+table, td{
+  border:none;
+}
+
+@media only screen and (max-width: 850px) {
+  .icon, .icon-text{display: none;}
+  .mobile-siderbar-main{
+    display: flex;
+    flex-direction: column;
+  }
 }
