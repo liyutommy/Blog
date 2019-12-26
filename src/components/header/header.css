@@ -18,8 +18,6 @@
 .head-logo {
   font-family: "Georgia";
   font-size: 1.75rem;
-  margin-left: ($spacer * 1.5) !important;
-  margin-top: ($spacer * .5) !important;
 }
 
 /*icon and text*/

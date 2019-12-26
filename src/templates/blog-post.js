@@ -19,7 +19,7 @@ const BlogPost = (props) => {
         <div className="sidebar px-4 py-2">
           <Sidebar />
         </div>
-        <div className="border-left pl-5">
+        <div className="blog pl-5">
           <SEO title={post.frontmatter.title} />
           <div className="mt-2">
             <h2 className="heading">{post.frontmatter.title}</h2>

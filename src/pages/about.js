@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import "bootstrap/dist/css/bootstrap.css"
 import "./index.css"
 import { FaRegCalendarCheck, FaRegCalendarTimes } from "react-icons/fa"
 
@@ -14,12 +15,12 @@ const AboutPage = (props) => {
                 <div className="sidebar px-4 py-2">
                     <Sidebar />
                 </div>
-                <div className="border-left pl-5">
+                <div className="blog-border pl-5">
                     <SEO title="About" />
                     <div>
-                        <h1>About</h1>
+                        <h2>About</h2>
                         <p>Developer Diary is a Gatsby Starter blog template created with web developers in mind, but really, anyone can use it. It's totally usable right out of the box, but minimalist enough to be easily modifiable to suit your needs.</p>
-                        <h3>Completed Features</h3>
+                        <h3><u>Completed Features</u></h3>
                         <div>
                             <span className="text-success d-inline-block" title="blazing">
                                 <FaRegCalendarCheck size={26} style={{ color: "success" }} />
@@ -44,7 +45,7 @@ const AboutPage = (props) => {
                             </span>
                             <p className="d-inline-block ml-2 w-75 align-top">Mobile responsive, of course</p>
                         </div>
-                        <h3> Incompleted Features </h3>
+                        <h3><u>Incompleted Features</u></h3>
                         <div>
                             <span className="text-danger d-inline-block" title="tech tags">
                                 <FaRegCalendarTimes size={26} style={{ color: "defeat" }} />
@@ -58,7 +59,7 @@ const AboutPage = (props) => {
                             <p className="d-inline-block ml-3 w-75 align-top">Related course tags of some articles</p>
                         </div>
                         <div>
-                            <span className="text-danger d-inline-block" title="course tags">
+                            <span className="text-danger d-inline-block" title="project">
                                 <FaRegCalendarTimes size={26} style={{ color: "defeat" }} />
                             </span>
                             <p className="d-inline-block ml-3 w-75 align-top">Temporarily leave the project webpage blank </p>

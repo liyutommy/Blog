@@ -11,7 +11,7 @@ module.exports = {
     contacts: {
       linkedin: siteConfig.author.contacts.linkedin,
       github: siteConfig.author.contacts.github,
-      twitter: siteConfig.author.contacts.twitter,
+      csdn: siteConfig.author.contacts.csdn,
     }
   },
   plugins: [

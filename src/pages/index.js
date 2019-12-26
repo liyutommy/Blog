@@ -17,7 +17,7 @@ const IndexPage = ({data}) => {
         <div className="sidebar px-4 py-2">
           <Sidebar />
         </div>
-        <div className="border-left pl-4">
+        <div className="blog pl-4">
           {posts.map((post) => {
             return (
               <div key={post.node.fields.slug} className="container mt-3">
@@ -56,7 +56,7 @@ export const pageQuery = graphql`
         contacts {
           github
           linkedin
-          twitter
+          csdn
         }
       }
     }

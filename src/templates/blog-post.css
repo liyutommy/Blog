@@ -11,12 +11,31 @@
     width: 90%;
 }
 
-
+/*
 @media only screen and (max-width: 850px) {
  .sidebar{display: none;}
  .post-page-main{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+  }
+}
+*/
+
+@media only screen and (max-width: 850px) {
+  .sidebar{
+    margin-top: 10px;
+    display: flex;
+    text-align: center;
+  }
+  .post-page-main {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+  .blog{
+    border-left: hidden;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
   }
 }

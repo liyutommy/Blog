@@ -7,7 +7,7 @@ module.exports = {
         contacts: {
             linkedin: "https://www.linkedin.com/in/yu-li-877806140/",
             github: "https://github.com/liyutommy",
-            twitter: "https://twitter.com/liyu_tommy",
+            csdn: "https://blog.csdn.net/weixin_43681386",
         },
     }
 }
