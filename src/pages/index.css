@@ -31,7 +31,7 @@
   }
   .blog{
     border-left: hidden;
-    text-align: justify;
+    text-align: justify-all ;
     margin-bottom: 5px;
     padding-bottom: 10px;
   }
