@@ -33,7 +33,7 @@ const IndexPage = ({data}) => {
                   {post.node.excerpt}
                 </p>
                 <Link to={post.node.fields.slug} className="text-primary">
-                  <small className="d-inline-block ml-3">
+                  <small className="d-inline-block ml-2">
                     Read full post
                   </small>
                 </Link>
