@@ -19,11 +19,6 @@ const SocialLinks = ({contacts}) => {
                     <FaGithubSquare size={26} style={{color: "secondary"}} className="brighten"/>
                 </span>
             </a>
-            <a className="text-secondary margin-t brighten" href={contacts.csdn}>
-                <span title="CSDN">
-                    <img src={CSDN} alt="csdn icon" />
-                </span>
-            </a>
         </div>
     )
 }
