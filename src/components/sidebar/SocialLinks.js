@@ -1,5 +1,4 @@
 import React from "react"
-import CSDN from "../../images/csdn.png"
 import {
     FaLinkedin,
     FaGithubSquare,

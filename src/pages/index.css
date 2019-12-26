@@ -17,6 +17,10 @@
   padding-left:4%;
 }
 
+.allposts-margin{
+  padding: 0;
+}
+
 @media only screen and (max-width: 850px) {
   .sidebar{
     margin-top: 10px;
@@ -35,7 +39,9 @@
     margin-bottom: 5px;
     padding-bottom: 10px;
   }
-  
+  .allposts-margin{
+    padding-left: 2%;
+  }
 }
 
 /*font of title and paragraph on index page*/

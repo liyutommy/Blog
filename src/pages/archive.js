@@ -18,7 +18,7 @@ const ArchivePage = ({data}) => {
             <Sidebar />
           </div>
           <div className="blog">
-            <h2 className="">All Posts</h2>
+            <h2 className="allposts-margin">All Posts</h2>
             {posts.map((post) => {
               return (
                 <div key={post.node.fields.slug} className="container pt-2">
