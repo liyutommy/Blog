@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import "bootstrap/dist/css/bootstrap.css"
 import "./index.css"
 
@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 import Sidebar from "../components/sidebar/Sidebar"
 
 const ProjectPage = ({data}) => {
-    const posts = data.allMarkdownRemark.edges
+    //const posts = data.allMarkdownRemark.edges
   
     return (  
       <Layout>
@@ -18,7 +18,7 @@ const ProjectPage = ({data}) => {
             <Sidebar />
           </div>
           <div className="blog">
-            <h2 className="">Empty</h2>
+            <h2 className="text-center">Empty</h2>
           </div>
         </div>
       </Layout>

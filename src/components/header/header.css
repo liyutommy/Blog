@@ -45,12 +45,31 @@
   display: none;
 }
 
-.mobile-menu{
+.mobile-menu {
+  width: 100%;
+  background: #2d3748;
   display: none;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 @media only screen and (max-width: 850px) {
   .icon, .icon-text{display: none;}
+  .mobile-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .mobile-icon-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .mobile-menu{display: flex;}
   .mobile-siderbar-main{
     display: flex;
     flex-direction: column;

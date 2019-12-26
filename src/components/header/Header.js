@@ -33,6 +33,7 @@ const Header = ({ siteTitle, author, bio, contacts}) => {
         </h1>
         <Navigation />
       </div>
+      <MobileMenu />
     </header>
   )
 }
