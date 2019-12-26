@@ -17,7 +17,7 @@ const ProjectPage = ({data}) => {
           <div className="sidebar px-4 py-2">
             <Sidebar />
           </div>
-          <div className="blog-border pl-4">
+          <div className="blog">
             <h2 className="">Empty</h2>
           </div>
         </div>

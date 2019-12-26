@@ -17,7 +17,7 @@ const ArchivePage = ({data}) => {
           <div className="sidebar px-4 py-2">
             <Sidebar />
           </div>
-          <div className="blog-border pl-4">
+          <div className="blog">
             <h2 className="">All Posts</h2>
             {posts.map((post) => {
               return (
