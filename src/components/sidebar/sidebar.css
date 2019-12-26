@@ -13,22 +13,6 @@ small, h3, p {
     font-family: 'Raleway';
 }
 
-
-.bio {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  
-.bio-text {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-font-size: 14px;
-text-decoration: none;
-}
-
 /*sidebar*/
 /* whole sidebar*/
 .sidebar-main {
@@ -43,7 +27,7 @@ text-decoration: none;
 }
 
 .margin-t{
-    margin-top: 9%;
+    margin-top: 8%;
 }
 
 .brighten{
