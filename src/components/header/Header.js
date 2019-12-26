@@ -4,7 +4,7 @@ import React from "react"
 
 import "./header.css"
 import Navigation from "./Navigation"
-import MobileSiderBar from "./MobileSiderBar"
+import MobileMenu from "./MobileMenu"
 
 const Header = ({ siteTitle, author, bio, contacts}) => {
   return(
@@ -20,7 +20,7 @@ const Header = ({ siteTitle, author, bio, contacts}) => {
           padding: `.75rem`,
         }}
       >
-        <h1 className="head-logo ml-4 mt-2" style={{ margin: 0 }}>
+        <h1 className="head-logo">
           <Link
             to="/"
             style={{

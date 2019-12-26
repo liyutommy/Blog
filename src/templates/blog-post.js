@@ -16,10 +16,10 @@ const BlogPost = (props) => {
     <Layout>
       <SEO title={post.frontmatter.title} />
       <div className="post-page-main">
-        <div className="sidebar px-4 py-2">
+        <div className="sidebar">
           <Sidebar />
         </div>
-        <div className="blog pl-5">
+        <div className="blog">
           <SEO title={post.frontmatter.title} />
           <div className="mt-2">
             <h2 className="heading">{post.frontmatter.title}</h2>

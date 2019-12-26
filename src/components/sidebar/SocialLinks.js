@@ -3,7 +3,6 @@ import CSDN from "../../images/csdn.png"
 import {
     FaLinkedin,
     FaGithubSquare,
-    FaTwitterSquare
 } from "react-icons/fa"
 import "./sidebar.css"
 

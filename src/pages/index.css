@@ -7,12 +7,14 @@
 /*width of sidebar*/
 .sidebar {
   width: 90%;
+  padding: 5% 5% 5% 5%;
 }
 
 .blog{
   border-left: solid;
   border-left-width: thin;
   border-left-color: lightgray;
+  padding-left: 5%;
 }
 
 @media only screen and (max-width: 850px) {
@@ -20,6 +22,7 @@
     margin-top: 10px;
     display: flex;
     text-align: center;
+    margin: 0 0 0 0;
   }
   .index-main {
     display: flex;
@@ -28,6 +31,7 @@
   }
   .blog{
     border-left: hidden;
+    text-align: justify;
     margin-bottom: 5px;
     padding-bottom: 10px;
   }

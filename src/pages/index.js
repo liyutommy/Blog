@@ -14,10 +14,10 @@ const IndexPage = ({data}) => {
     <Layout>
       <SEO title="Home" />
       <div className="index-main">
-        <div className="sidebar px-4 py-2">
+        <div className="sidebar">
           <Sidebar />
         </div>
-        <div className="blog pl-4">
+        <div className="blog">
           {posts.map((post) => {
             return (
               <div key={post.node.fields.slug} className="container mt-3">

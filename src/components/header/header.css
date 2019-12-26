@@ -18,6 +18,9 @@
 .head-logo {
   font-family: "Georgia";
   font-size: 1.75rem;
+  margin: 0 0 0 0;
+  padding-left: 1.5%;
+  padding-top: 0.5%;
 }
 
 /*icon and text*/
@@ -42,8 +45,8 @@
   display: none;
 }
 
-table, td{
-  border:none;
+.mobile-menu{
+  display: none;
 }
 
 @media only screen and (max-width: 850px) {
@@ -51,5 +54,11 @@ table, td{
   .mobile-siderbar-main{
     display: flex;
     flex-direction: column;
+  }
+  .head-logo {
+    font-family: "Georgia";
+    font-size: 1.25rem;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
   }
 }
