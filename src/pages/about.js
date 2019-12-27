@@ -19,7 +19,7 @@ const AboutPage = (props) => {
                     <SEO title="About" />
                     <div>
                         <h2>About</h2>
-                        <p>Developer Diary is a Gatsby Starter blog template created with web developers in mind, but really, anyone can use it. It's totally usable right out of the box, but minimalist enough to be easily modifiable to suit your needs.</p>
+                        <p>My blog is built with React, GatsbyJS, and JavaScript. Later, I will use TypeScript to improve my blog. To be continued...</p>
                         <h3><u>Completed Features</u></h3>
                         <div>
                             <span className="text-success d-inline-block" title="blazing">
