@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's blog
+  Yu Li's blog
 </h1>
 
 ## 🧐 What's inside?
